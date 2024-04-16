@@ -1,31 +1,33 @@
-# Annotation Reply
+# Resposta de Anotação
 
-## Feature Overview
+## Resposta de Anotação
 
-The Annotation Reply feature offers tailored, high-quality replies for various applications, achieved through manual annotation.
+### Visão geral do Recurso <a href="#feature-overview" id="feature-overview"></a>
 
-#### Key Uses:
+O recurso Resposta de Anotação oferece respostas personalizadas e de alta qualidade para várias aplicações, obtidas por meio de anotação manual.
 
-1. **Specialized Replies for Specific Sectors:** This is particularly valuable in customer service or knowledge bases within business, government, etc. It allows for precise answers to specific questions by annotating replies, such as setting "standard annotations" for some or marking others as "unanswerable."
-2. **Quick Adaptation for Prototypes:** Utilizing Annotation Reply can significantly improve reply quality in the rapid development of prototype products, enhancing customer satisfaction.
+**Principais Usos:**
 
-#### How It Works:
+1. **Respostas Especializadas para Setores Específicos:** Isto é particularmente valioso no serviço ao cliente ou bases de conhecimento dentro de negócios, governo, etc. Ele permite respostas precisas a perguntas específicas, anotando respostas, como definir "notações padrão" para alguns ou marcar outros como "inrespondíveis."
+2. **Adaptação Rápida para Protótipos:** Utilizar a Resposta de Anotação pode melhorar significativamente a qualidade da resposta no rápido desenvolvimento de produtos protótipos, aumentando a satisfação do cliente.
 
-The feature provides an alternative system for enhancing retrieval, skipping the generation phase of Large Language Models (LLMs) and avoiding the complications of Retrieval-Augmented Generation (RAG).
+**Como Funciona:**
 
-1. Once activated, you can annotate LLM dialogue replies. Annotations can either be high-quality answers taken directly from the LLM or your own edited annotations. These annotated contents are saved for future use.
-2. When similar questions are asked again, the system identifies matching annotated questions.
-3. If a match is found, the annotated answer is returned directly, bypassing LLM or RAG processes.
-4. Without a match, the query follows the standard LLM or RAG process.
-5. Deactivating Annotation Reply ceases matching replies from the annotations.
+O recurso fornece um sistema alternativo para melhorar a recuperação, ignorando a fase de geração de Grandes Modelos de Linguagem (LLMs) e evitando as complicações da Geração Aumentada por Recuperação (RAG).
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt="" width="563"><figcaption><p>Annotation Reply Process</p></figcaption></figure>
+1. Uma vez ativado, você pode anotar as respostas de diálogo LLM. As anotações podem ser respostas de alta qualidade tiradas diretamente do LLM ou suas próprias anotações editadas. Esses conteúdos anotados são salvos para uso futuro.
+2. Quando perguntas semelhantes são feitas novamente, o sistema identifica as perguntas anotadas correspondentes.
+3. Se uma correspondência for encontrada, a resposta anotada será retornada diretamente, ignorando os processos LLM ou RAG.
+4. Sem uma correspondência, a consulta segue o processo LLM ou RAG padrão.
+5. Desativar a Resposta de Anotação cessa as respostas correspondentes das anotações.
 
-## Activation
+![](https://wr2.gitbook.io/\~gitbook/image?url=https:%2F%2F987453532-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FW3pdVn6AztRtyAD0PGfj%252Fuploads%252Fgit-blob-090c7766acfb0ee3a498fc8eff83b825f6e678a0%252Fimage%2520%283%29%2520%281%29%2520%281%29.png%3Falt=media\&width=768\&dpr=4\&quality=100\&sign=c51fafb5e7a36f532d14d651656f092e43c4fc9b6186185815de8f18df29242c)Processo de Resposta de Anotação
 
-Navigate to “Build Apps -> Add Feature” to enable the Annotation Reply feature.
+### Ativação <a href="#activation" id="activation"></a>
 
-<figure><img src="../.gitbook/assets/screenshot-20231218-172146 (1).png" alt=""><figcaption></figcaption></figure>
+Navegue até “Build Apps -> Adicione Feature” para ativar a funcionalidade Resposta de Anotação.
+
+![](https://wr2.gitbook.io/\~gitbook/image?url=https:%2F%2F987453532-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FW3pdVn6AztRtyAD0PGfj%252Fuploads%252Fgit-blob-1acdf479c10bf16e60204dcd0b72396ef7f38e07%252Fscreenshot-20231218-172146%2520%281%29.png%3Falt=media\&width=768\&dpr=4\&quality=100\&sign=e79ee2e46a31c2b92fbfb2d1d6de2cdefe6c86852078da5d964682bd3a53184b)
 
 Start by setting the parameters for Annotation Reply. These include the Score threshold and the Embedding model.
 
@@ -34,48 +36,48 @@ Start by setting the parameters for Annotation Reply. These include the Score th
 
 Select 'Save' for immediate application of these settings. The system then creates and stores embeddings for all existing annotations.
 
-<figure><img src="../.gitbook/assets/screenshot-20231218-172302.png" alt=""><figcaption></figcaption></figure>
+![](https://wr2.gitbook.io/\~gitbook/image?url=https:%2F%2F987453532-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FW3pdVn6AztRtyAD0PGfj%252Fuploads%252Fgit-blob-a6c6a10495f0dc2bd1392f1f127f337c8ffca540%252Fscreenshot-20231218-172302.png%3Falt=media\&width=768\&dpr=4\&quality=100\&sign=2cae6dc2c2c69592d3df12d3a2ad85c1828320b770fc7c33851b3cf135d1e810)
 
-## Adding Annotations in Debug Mode
+### Adding Annotations in Debug Mode <a href="#adding-annotations-in-debug-mode" id="adding-annotations-in-debug-mode"></a>
 
 Annotations can be added or modified directly on the model's replies within the debug and preview interface.
 
-<figure><img src="../.gitbook/assets/screenshot-20231218-175934.png" alt=""><figcaption></figcaption></figure>
+![](https://wr2.gitbook.io/\~gitbook/image?url=https:%2F%2F987453532-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FW3pdVn6AztRtyAD0PGfj%252Fuploads%252Fgit-blob-20d25b53b0a90cdb84002f2e7b02b6769688313f%252Fscreenshot-20231218-175934.png%3Falt=media\&width=768\&dpr=4\&quality=100\&sign=a315aaf026415af0355d64882cc08b56e7233e69b35788d75c0756a53725caea)
 
 Edit and save these replies to ensure high quality.
 
-<figure><img src="../.gitbook/assets/screenshot-20231218-180013.png" alt=""><figcaption></figcaption></figure>
+![](https://wr2.gitbook.io/\~gitbook/image?url=https:%2F%2F987453532-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FW3pdVn6AztRtyAD0PGfj%252Fuploads%252Fgit-blob-3cc1a782ceb6f9d02c18586cc39010629e398389%252Fscreenshot-20231218-180013.png%3Falt=media\&width=768\&dpr=4\&quality=100\&sign=d6accbe2ac2753f1bc077bbd19358e67ee13b7cc0b1b185313bef5c8b7b04c49)
 
 When a user repeats a query, the system uses the relevant saved annotation for a direct reply.
 
-<figure><img src="../.gitbook/assets/screenshot-20231218-180135.png" alt=""><figcaption></figcaption></figure>
+![](https://wr2.gitbook.io/\~gitbook/image?url=https:%2F%2F987453532-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FW3pdVn6AztRtyAD0PGfj%252Fuploads%252Fgit-blob-7a20541c2033ba15f2023d907edf35e04642ce9d%252Fscreenshot-20231218-180135.png%3Falt=media\&width=768\&dpr=4\&quality=100\&sign=156f58bba7c25ef8651d78adfff74fa00a8991a624621898c3c560802a24e21c)
 
-## Enabling Annotations in System Logs
+### Enabling Annotations in System Logs <a href="#enabling-annotations-in-system-logs" id="enabling-annotations-in-system-logs"></a>
 
-Turn on the Annotation Reply feature under “Build Apps -> Logs and Annotations -> Annotations.”
+Ative a funcionalidade Resposta à Anotação em “Build Apps -> Logs e Anotações -> Annotations.”
 
-<figure><img src="../.gitbook/assets/screenshot-20231218-180233.png" alt=""><figcaption></figcaption></figure>
+![](https://wr2.gitbook.io/\~gitbook/image?url=https:%2F%2F987453532-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FW3pdVn6AztRtyAD0PGfj%252Fuploads%252Fgit-blob-9dea8d9aa6119333f8d773fcffb601dcb0e63477%252Fscreenshot-20231218-180233.png%3Falt=media\&width=768\&dpr=4\&quality=100\&sign=954320cd9a728d45413a4e1a1a6f96ec3fc253fb96392bc8e87765cce917b139)
 
-## Adjusting Backend Parameters for Annotations
+### Ajustando Parâmetros de Backend para Anotações <a href="#adjusting-backend-parameters-for-annotations" id="adjusting-backend-parameters-for-annotations"></a>
 
-**Parameter Settings:** These include the Score threshold and Embedding model, just as in the initial configuration.
+**Configurações do Parâmetro:** Estes incluem o limiar de Pontuação e o modelo de Incorporação, assim como na configuração inicial.
 
-<figure><img src="../.gitbook/assets/screenshot-20231218-180337.png" alt=""><figcaption></figcaption></figure>
+![](https://wr2.gitbook.io/\~gitbook/image?url=https:%2F%2F987453532-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FW3pdVn6AztRtyAD0PGfj%252Fuploads%252Fgit-blob-1e5fb4a5dba3b4d0b695010729a90fb680224b77%252Fscreenshot-20231218-180337.png%3Falt=media\&width=768\&dpr=4\&quality=100\&sign=3258199604d21e17001023fff07283325db16f25aaf71f2e0631889643b5af62)
 
-## Bulk Importing Annotated Q\&As
+### Importação em massa de Q\&As Anotados <a href="#bulk-importing-annotated-q-and-as" id="bulk-importing-annotated-q-and-as"></a>
 
-**Import Process:** Use the provided template to format Q\&A pairs for annotations, then upload them in bulk.
+**Processo de Importação:** Use o modelo fornecido para formatar pares de perguntas e respostas para anotações e, em seguida, faça o upload em massa.
 
-<figure><img src="../.gitbook/assets/screenshot-20231218-180508.png" alt=""><figcaption></figcaption></figure>
+![](https://wr2.gitbook.io/\~gitbook/image?url=https:%2F%2F987453532-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FW3pdVn6AztRtyAD0PGfj%252Fuploads%252Fgit-blob-2f92e8e5fa2bcde93a10aff80f46e715d5705a08%252Fscreenshot-20231218-180508.png%3Falt=media\&width=768\&dpr=4\&quality=100\&sign=14c9f4657edb311c5fdaeb3151ace1bdee6d41eaefc451019d8edc6b102bffb4)
 
-## Bulk Exporting Annotated Q\&As
+### Exportação em massa Q\&As Anotados <a href="#bulk-exporting-annotated-q-and-as" id="bulk-exporting-annotated-q-and-as"></a>
 
-**Export Function:** This feature allows for a one-time export of all annotated Q\&A pairs stored in the system.
+**Função de Exportação:** Esse recurso permite uma exportação única de todos os pares de Q\&A anotados armazenados no sistema.
 
-<figure><img src="../.gitbook/assets/screenshot-20231218-180611.png" alt=""><figcaption></figcaption></figure>
+![](https://wr2.gitbook.io/\~gitbook/image?url=https:%2F%2F987453532-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FW3pdVn6AztRtyAD0PGfj%252Fuploads%252Fgit-blob-7c98a2cedb8b78f44f7fe40184f1278f81fa8d02%252Fscreenshot-20231218-180611.png%3Falt=media\&width=768\&dpr=4\&quality=100\&sign=1ae18228915c16619a8d3fb9eb6a3f88855b1986b6c10e4bf237c095c5aa6193)
 
-## Reviewing Annotation Hit History
+### Revisando a Anotação Hit History <a href="#reviewing-annotation-hit-history" id="reviewing-annotation-hit-history"></a>
 
-View the history of each annotation's use, including edits, queries, replies, sources, similarity scores, and timestamps. This information is valuable for ongoing improvements to your annotations.
+Veja o histórico de uso de cada anotação, incluindo edições, consultas, respostas, fontes, pontuações de similaridade e registros de data e hora. Essas informações são valiosas para melhorias contínuas em suas anotações.
 
-<figure><img src="../.gitbook/assets/screenshot-20231218-180737.png" alt=""><figcaption></figcaption></figure>
+![](https://wr2.gitbook.io/\~gitbook/image?url=https:%2F%2F987453532-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FW3pdVn6AztRtyAD0PGfj%252Fuploads%252Fgit-blob-3e50f8fbc032209f8bea66811b2be232f052f496%252Fscreenshot-20231218-180737.png%3Falt=media\&width=768\&dpr=4\&quality=100\&sign=441d944c68d4f64f273186f4f9f79d36113c2bdfadad995b865d46dcdb5c9429)
