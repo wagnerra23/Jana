@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Dify!](README.md)
+* [Bem-vindo ao Jana!](README.md)
 * [features](features/README.md)
   * [Annotation Reply](features/annotation-reply.md)
   * [External Data Tool](features/external\_data\_tool.md)
