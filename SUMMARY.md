@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Bem-vindo ao Jana!](README.md)
-* [features](features/README.md)
+* [Características](features/README.md)
   * [Annotation Reply](features/annotation-reply.md)
   * [External Data Tool](features/external\_data\_tool.md)
   * [Logs & Annotations](features/logs.md)
