@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Bem-vindo ao Jana!](README.md)
+* [Bem-vindo ao Jana AI!](README.md)
 * [Características](features/README.md)
   * [Resposta de Anotação](features/annotation-reply.md)
   * [Ferramenta de Dados Externos](features/external\_data\_tool.md)

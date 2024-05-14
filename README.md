@@ -1,14 +1,14 @@
-# Bem-vindo ao Jana!
+# Bem-vindo ao Jana AI!
 
-O Dify é uma plataforma de desenvolvimento de aplicativos de código aberto de modelo de linguagem grande (LLM). Ele combina os conceitos de Backend-as-a-Service e LLMOps para permitir que os desenvolvedores criem rapidamente aplicativos de IA generativos de nível de produção. Mesmo pessoal não técnico pode participar da definição e operações de dados de aplicativos de IA.
+OA Jana é uma plataforma de desenvolvimento de aplicativos de modelo de linguagem grande (LLM). Ele combina os conceitos de Backend-as-a-Service e LLMOps para permitir que os desenvolvedores criem rapidamente aplicativos de IA generativos de nível de produção. Mesmo pessoal não técnico pode participar da definição e operações de dados de aplicativos de IA.
 
-Integrando as principais pilhas de tecnologia necessárias para a criação de aplicativos LLM, incluindo suporte para centenas de modelos, uma interface intuitiva de orquestração Prompt, mecanismos RAG de alta qualidade e uma estrutura flexível do Agent, o que inclui, ao fornecer um conjunto de interfaces e APIs fáceis de usar, o Dify economiza muito tempo para os desenvolvedores reinventarem a roda, permitindo que eles se concentrem nas necessidades de inovação e negócios.
+Integrando as principais pilhas de tecnologia necessárias para a criação de aplicativos LLM, incluindo suporte para centenas de modelos, uma interface intuitiva de orquestração Prompt, mecanismos RAG de alta qualidade e uma estrutura flexível do Agent, o que inclui, ao fornecer um conjunto de interfaces e APIs fáceis de usar, a Jana economiza muito tempo para os desenvolvedores reinventarem a roda, permitindo que eles se concentrem nas necessidades de inovação e negócios.
 
-#### Por que usar o Dify? <a href="#why-use-dify" id="why-use-dify"></a>
+#### Por que usar a Jana? <a href="#why-use-dify" id="why-use-dify"></a>
 
-Você pode pensar em bibliotecas como LangChain como caixas de ferramentas com martelos, pregos, etc. Em comparação, o Dify fornece uma solução completa e mais pronta para produção - pense no Dify como um sistema de andaimes com design de engenharia refinado e testes de software.
+Você pode pensar em bibliotecas como LangChain como caixas de ferramentas com martelos, pregos, etc. Em comparação, a Jana fornece uma solução completa e mais pronta para produção - pense na Jana como um sistema de andaimes com design de engenharia refinado e testes de software.
 
-Importante, Dify é **código aberto**, co-criado por uma equipe profissional em tempo integral e comunidade. Você pode implantar recursos semelhantes à API e GPTs do Assistants com base em qualquer modelo, mantendo controle total sobre seus dados com segurança flexível, tudo em uma interface fácil de usar.
+Importante, criado por uma equipe profissional em tempo integral. Você pode implantar recursos semelhantes à API e GPTs do Assistants com base em qualquer modelo, mantendo controle total sobre seus dados com segurança flexível, tudo em uma interface fácil de usar.
 
 > Nossos usuários da comunidade resumem sua avaliação dos produtos da Dify como iteração simples, restrita e rápida.
 >
