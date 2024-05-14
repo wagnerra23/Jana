@@ -1,6 +1,6 @@
 # Bem-vindo ao Jana AI!
 
-OA Jana é uma plataforma de desenvolvimento de aplicativos de modelo de linguagem grande (LLM). Ele combina os conceitos de Backend-as-a-Service e LLMOps para permitir que os desenvolvedores criem rapidamente aplicativos de IA generativos de nível de produção. Mesmo pessoal não técnico pode participar da definição e operações de dados de aplicativos de IA.
+A Jana AI é uma plataforma de desenvolvimento de aplicativos de modelo de linguagem grande (LLM). Ele combina os conceitos de Backend-as-a-Service e LLMOps para permitir que os desenvolvedores criem rapidamente aplicativos de IA generativos de nível de produção. Mesmo pessoal não técnico pode participar da definição e operações de dados de aplicativos de IA.
 
 Integrando as principais pilhas de tecnologia necessárias para a criação de aplicativos LLM, incluindo suporte para centenas de modelos, uma interface intuitiva de orquestração Prompt, mecanismos RAG de alta qualidade e uma estrutura flexível do Agent, o que inclui, ao fornecer um conjunto de interfaces e APIs fáceis de usar, a Jana economiza muito tempo para os desenvolvedores reinventarem a roda, permitindo que eles se concentrem nas necessidades de inovação e negócios.
 
